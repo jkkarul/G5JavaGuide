@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>G5RSCH | Java Basics Guide</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta property="og:title" content="G5RSCH | Java Basics Guide">
+    <meta property="og:description" content="A comprehensive guide to Java basics.">
+    <meta property="og:image" content="https://github.com/jkkarul/G5JavaBasicsGuide/blob/main/img/3.jpeg?raw=true">
+    <meta property="og:url" content="https://jkkarul.github.io/G5JavaBasicsGuide/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+
+    <!---------------------- sidebar ---------------------->
+    <div id="accordian">
+      <div class="profile">
+        <div class="profile-img bg-img" style="background-image: url(img/java.png)"></div>
+      </div>
+      <ul class="show-dropdown main-navbar">
+        <div class="selector-active">
+          <div class="top"></div>
+          <div class="bottom"></div>
+        </div>
+        <li class="active"><a href="javascript:void(0);"><i class="fa-solid fa-circle-info"></i><span data-value="Site Info">Site Info</span></a></li>
+        <li><a href="javascript:void(0);"><i class="fa-solid fa-book"></i><span data-value="Java Guide">Java Guide</span></a></li>
+        <li><a href="javascript:void(0);"><i class="fa-solid fa-list-check"></i><span data-value="Tasks">Chapter Review</span></a></li>
+        <li><a href="javascript:void(0);"><i class="fa-solid fa-square-poll-vertical"></i><span data-value="Koshka Generator">Research Survey</span></a></li>
+        <li><a href="javascript:void(0);"><i class="fa-solid fa-laptop-code"></i><span data-value="Run Java Code">Run Java Code</span></a></li>
+        <li><a href="javascript:void(0);"><i class="fa-solid fa-people-group"></i><span data-value="Credits">Credits</span></a></li>
+      </ul>
+    </div>
+
+    <!---------------------- site-info ---------------------->
+    <div class="main-content">
+      <div id="info" style="display: none;">
+        <div class="info-wrapper">
+            <div class="about-info" style="margin-top: 250px;">
+              <p>
+                <i class="fa-brands fa-java"></i> Java Basics Guide by: G5 Test
+              </p>
+          </div>
+
+            <div class="about-info2" style="margin-top: -400px;">
+                <p style="font-size: 15px;">(If the site looks weird zoom out to 90% on main hub and 80% on lessons - ctrl+scrolldown. Screen size compatibility issues.)</p>
+          </div>
+        </div>
+      </div>
+
+      <!---------------------- topics ---------------------->
+      <div id="topics" style="display: none;">
+        <div id="topic-wrapper">
+          <main class="table">
+            <section class="table__header">
+              <h1><i class="fa-solid fa-book"></i>Chapter #1: Introduction to Programming <i class="fa-solid fa-circle-play"></i></h1>
+            </section>
+            <section class="table__body clickable-table clickable-row" data-href="pages/intro.html">
+              <table data-href="pages/intro.html">
+                <thead>
+                  <tr>
+                    <th> </th>
+                    <th> # </th>
+                    <th> Chapter Lessons:</th>
+                    <th> Lesson Description: </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td> 1 </td>
+                    <td> Programs and Programming Languages </td>
+                    <td> Introduces programming concepts, languages, and translation mechanisms.</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td> 2 </td>
+                    <td> Introduction to Java Programming </td>
+                    <td> Introduces Java, covering its development, features, APIs, editions, and the JDK.</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td> 3 </td>
+                    <td> Anatomy of a Java Program </td>
+                    <td> Covers the basics of Java classes, objects, methods, and program structure </td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td> 4 </td>
+                    <td> Installing Java / JDK </td>
+                    <td> A step-by-step guide on how to install the Java Development Kit (JDK) on your device. </td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+          </main>
+
+              <main class="table2" id="tab">
+                <section class="table__header" id="table__header2">
+                  <h1><i class="fa-solid fa-book"></i>Chapter #2: The Java Basics <i class="fa-solid fa-circle-info"></i></h1>
+                 </section>
+                <section class="table__body clickable-table clickable-row" id="table__body2">
+                  <table data-href="pages/basics.html">
+                    <thead>
+                      <tr>
+                        <th> </th>
+                        <th> # </th>
+                        <th> Chapter Lessons:</th>
+                        <th> Lesson Description: </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td> 1 </td>
+                        <td> Learning How to Run Java Code </td>
+                        <td> A step-by-step guide on how to run Java code with the VSCode IDE and the ComLab way. </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td> 2 </td>
+                        <td> Java Variables and Data Types </td>
+                        <td> Covers the basics of variables and data types in Java.</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td> 3 </td>
+                        <td> Accepting User Input In Java </td>
+                        <td> How to use the Scanner class to accept and process user input in Java.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+              </main>
+
+              <main class="table2" id="tab">
+                <section class="table__header" id="table__header2">
+                  <h1><i class="fa-solid fa-book"></i>Chapter #3: Math in Java <i class="fa-solid fa-calculator"></i></h1>
+                </section>
+                <section class="table__body clickable-table clickable-row" id="table__body2">
+                  <table data-href="pages/math.html">
+                    <thead>
+                      <tr>
+                        <th> </th>
+                        <th> # </th>
+                        <th> Chapter Lessons:</th>
+                        <th> Lesson Description: </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td> 1 </td>
+                        <td> Arithmetic Expressions in Java </td>
+                        <td> Expressions, operators, arithmetic, increments/decrements, integer division, and type casting.</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td> 2 </td>
+                        <td> Java Math Class Methods </td>
+                        <td> Covers the Math class and its methods for mathematical operations and calculations. </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td> 3 </td>
+                        <td> Random Values in Java </td>
+                        <td> Covers the Java Random class methods for generating random integers, doubles, and booleans. </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+              </main>
+            
+              <main class="table2" id="tab" style="margin-bottom: 40px;">
+                <section class="table__header" id="table__header2">
+                  <h1><i class="fa-solid fa-book"></i>Chapter #4: Conditional Statements in Java <i class="fa-solid fa-code"></i></h1>
+                </section>
+                <section class="table__body clickable-table clickable-row" id="table__body2">
+                  <table data-href="pages/conditional.html">
+                    <thead>
+                      <tr>
+                        <th> </th>
+                        <th> # </th>
+                        <th> Chapter Lessons:</th>
+                        <th> Lesson Description: </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td> 1 </td>
+                        <td> If Statements in Java </td>
+                        <td> Decision-making in Java using if-else and else-if statements.</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td> 2 </td>
+                        <td> Switch Statements in Java </td>
+                        <td> Uses of switch statements, including their syntax, structure, and applications.  </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td> 3 </td>
+                        <td> Logical Operators in Java </td>
+                        <td> Covers logical operators, including AND, OR, and NOT, and how to use them </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+              </main>
+        </div>
+      </div>
+
+      <!---------------------- tasks ---------------------->
+      <div id="tasks" style="display: none;">
+        <div class="tasks-wrapper">
+          <main class="table3" style="margin-top: 40px;">
+            <section class="table__header">
+              <h1><i class="fa-solid fa-book"></i>Chapter Review #1: Introduction to Programming <i class="fa-solid fa-circle-play"></i></h1>
+            </section>
+            <section class="table__body clickable-table clickable-row" data-href="pages/intro.html" id="table__body3">
+              <table data-href="https://docs.google.com/forms/d/e/1FAIpQLSfbX5BiZ3qJH1PMSu_HjI_3kz_lz9wSemDauCcToVoOY_gWZQ/viewform?usp=sf_link">
+                <thead>
+                  <tr>
+                    <th> </th>
+                    <th> # </th>
+                    <th> Chapter Review Lessons:</th>
+                    <th> Lesson Description: </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td> 1 </td>
+                    <td> Programs and Programming Languages </td>
+                    <td> Introduces programming concepts, languages, and translation mechanisms.</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td> 2 </td>
+                    <td> Introduction to Java Programming </td>
+                    <td> Introduces Java, covering its development, features, APIs, editions, and the JDK.</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td> 3 </td>
+                    <td> Anatomy of a Java Program </td>
+                    <td> Covers the basics of Java classes, objects, methods, and program structure </td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+          </main>
+
+              <main class="table2" id="tab" style="height: 15rem;">
+                <section class="table__header" id="table__header2">
+                  <h1><i class="fa-solid fa-book"></i>Chapter Review #2: The Java Basics <i class="fa-solid fa-circle-info"></i></h1>
+                 </section>
+                <section class="table__body clickable-table clickable-row" id="table__body2" style="  height:52.9%;">
+                  <table data-href="https://docs.google.com/forms/d/e/1FAIpQLSfqgghZs_Er8mSDhArTYg1mSm8LJHjF87PHKDB1SfXeKhSukg/viewform?usp=sf_link">
+                    <thead>
+                      <tr>
+                        <th> </th>
+                        <th> # </th>
+                        <th> Chapter Review Lessons:</th>
+                        <th> Lesson Description: </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <td></td>
+                        <td> 1 </td>
+                        <td> Java Variables and Data Types </td>
+                        <td> Covers the basics of variables and data types in Java.</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td> 2 </td>
+                        <td> Accepting User Input In Java </td>
+                        <td> How to use the Scanner class to accept and process user input in Java.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+              </main>
+
+              <main class="table2" id="tab">
+                <section class="table__header" id="table__header2">
+                  <h1><i class="fa-solid fa-book"></i>Chapter Review #3: Math in Java <i class="fa-solid fa-calculator"></i></h1>
+                </section>
+                <section class="table__body clickable-table clickable-row" id="table__body2">
+                  <table data-href="https://docs.google.com/forms/d/e/1FAIpQLSfSPnbmFcSY93G9my-mISqtWMcWdx4FEFEntU_nYnSSiMOmFA/viewform?usp=sf_link">
+                    <thead>
+                      <tr>
+                        <th> </th>
+                        <th> # </th>
+                        <th> Chapter Review Lessons:</th>
+                        <th> Lesson Description: </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td> 1 </td>
+                        <td> Arithmetic Expressions in Java </td>
+                        <td> Expressions, operators, arithmetic, increments/decrements, integer division, and type casting.</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td> 2 </td>
+                        <td> Java Math Class Methods </td>
+                        <td> Covers the Math class and its methods for mathematical operations and calculations. </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td> 3 </td>
+                        <td> Random Values in Java </td>
+                        <td> Covers the Java Random class methods for generating random integers, doubles, and booleans. </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+              </main>
+            
+              <main class="table2" id="tab" style="margin-bottom: 40px;">
+                <section class="table__header" id="table__header2">
+                  <h1><i class="fa-solid fa-book"></i>Chapter Review #4: Conditional Statements in Java <i class="fa-solid fa-code"></i></h1>
+                </section>
+                <section class="table__body clickable-table clickable-row" id="table__body2">
+                  <table data-href="https://docs.google.com/forms/d/e/1FAIpQLSfY0_RA6n-UqaCmpHADKVUdJ3V8jGF8N9mZ5riBWJkKBZq67Q/viewform?usp=sf_link">
+                    <thead>
+                      <tr>
+                        <th> </th>
+                        <th> # </th>
+                        <th> Chapter Review Lessons:</th>
+                        <th> Lesson Description: </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td> 1 </td>
+                        <td> If Statements in Java </td>
+                        <td> Decision-making in Java using if-else and else-if statements.</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td> 2 </td>
+                        <td> Switch Statements in Java </td>
+                        <td> Uses of switch statements, including their syntax, structure, and applications.  </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td> 3 </td>
+                        <td> Logical Operators in Java </td>
+                        <td> Covers logical operators, including AND, OR, and NOT, and how to use them </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+              </main>
+        </div>
+      </div>
+
+      <!---------------------- runcode ---------------------->
+
+      <div id="runcode" style="display: none;">
+        <div class="runcode-wrapper">
+          <main class="runcode-table">
+            <section class="runcode__header">
+              <h1><i class="fa-brands fa-java"></i>Run Java Code</h1>
+            </section>
+            <section class="runcode__body">
+              <table>
+                <thead>
+                </thead>
+                <div class="site-java">
+                  <iframe id="javaFrame" src="https://www.programiz.com/java-programming/online-compiler/" title="Embedded Page" style="border: none;" scrolling="no"></iframe>
+                </div>
+              </table>
+            </section>
+          </main>
+        </div>
+      </div>
+
+      <!---------------------- generator ---------------------->
+      <div id="generator" style="display: none;">
+        <div class="generator-wrapper">
+
+          <main class="tableg">
+            <section class="table__headerg">
+              <h1><i class="fa-solid fa-square-poll-vertical"></i>Pre - Java Guide Survey:</h1>
+            </section>
+            <section class="table__body clickable-table clickable-row" data-href="pages/intro.html" id="table__bodyg">
+              <table data-href="https://docs.google.com/forms/d/e/1FAIpQLSc77zin6ha4l8TaFc5ECgifmrAMlwu9u4UILVuezee4lVNfjg/viewform?usp=sf_link">
+                <tbody>
+                  <thead>
+                    <th>
+                    </th>
+                  </thead>
+                  <tr>
+                    <td id="notedescription"><br>Please take this google forms survey before going through the "Java Basics Guide" </td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+          </main>
+
+              <main class="tableg2" id="tab">
+                <section class="table__headerg">
+                  <h1><i class="fa-solid fa-square-poll-vertical"></i>Post - Java Guide Survey:</h1>
+                </section>
+                <section class="table__body clickable-table clickable-row" id="table__bodyg">
+                  <table data-href="https://docs.google.com/forms/d/e/1FAIpQLSf-7HWrSN0_My-qnezmUGSEvW8bCF-T7g5CwYv69at-cx_PCA/viewform?usp=sf_link">
+                    <tbody>
+                      <thead>
+                        <th>
+                        </th>
+                      </thead>
+                      <tr>
+                        <td id="notedescription"><br>Please take this google forms survey after finishing the "Java Basics Guide" </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+              </main>
+        </div>
+      </div>
+
+      <!---------------------- credits ---------------------->
+      <div id="credits" style="display: none;">
+        <div class="credits-wrapper">
+
+          <main class="tableg2" id="tab" style="margin-top: 40px;">
+            <section class="table__headerg">
+              <h1><i class="fa-solid fa-people-group"></i><span data-value="Credits">Credits</h1>
+            </section>
+            <section class="table__body" id="table__bodyg">
+              <table>
+                <tbody>
+                  <thead>
+                    <th>
+                    </th>
+                  </thead>
+                  <tr>
+                    <td id="notedescription"><br>Work In Progress <br>(WIP) </td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+          </main>
+
+      <main class="table" style="display: none;">
+        <section class="table__header">
+          <h`><i class="fa-brands fa-java"></i> Credits By The Men Of Culture</h1>
+        </section>
+        <section class="table__body">
+          <table>
+            <thead>
+              <tr>
+                <th> </th>
+                <th>  </th>
+                <th> Pictures </i> </th>
+                <th> Contributions </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th></th>
+                <td></td>
+                <td class="picture-cell">
+                  <iframe src="https://www.youtube.com/embed/GqZPwKp13wo" title="aaron moment but longer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="name-overlay">Aaron Jasper De Guzman</div>
+                </td>
+                <td>Mascot Ng Website aaa</button></td>
+            </tr>
+            <th></th>
+            <td></td>
+            <td class="picture-cell">
+                <img src="img/Rizzal.jpg" width="450" height="400">
+                <div class="name-overlay">Karl Angelo Roque</div>
+            </td>
+            <td>This Man Made The Entire Website</td>
+              </tr>
+              <tr>
+                <th></th>
+                <td></td>
+                <td class="picture-cell">
+                    <img src="img/Nilamon.jpg" width="450" height="400">
+                    <div class="name-overlay">Joseph Ramilo</div>
+                </td>
+                <td>Semi Gumawa Ng Website/Moral Support Ni Karl</td>
+              </tr>
+              <tr>
+                <th></th>
+                <td></td>
+                <td class="picture-cell">
+                    <img src="img/SmilingMonkey.jpg" width="450" height="400">
+                    <div class="name-overlay">Theodore Benedect Soriao</div>
+                </td>
+                <td>Pinaka Batak Sa Paggawa Ng Research</td>
+              </tr>
+              <tr>
+                <th></th>
+                <td></td>
+                <td class="picture-cell">
+                    <img src="img/HolyChickenFeet.jpg" width="450" height="400">
+                    <div class="name-overlay">Kalvin Zedrix Felipe</div>
+                </td>
+                <td>Holy Bible Support/Nag Survey?</td>
+                <tr>
+                  <th></th>
+                  <td></td>
+                  <td class="picture-cell">
+                      <img src="img/Edwardov2.jpg" width="450" height="400">
+                      <div class="name-overlay">Daniel Luis Lomboy</div>
+                  </td>
+                  <td>Nag Survey?</td>
+                  <tr>
+                    <th></th>
+                    <td></td>
+                    <td class="picture-cell">
+                        <img src="img/Tinitiganko.jpg" width="450" height="400">
+                        <div class="name-overlay">Hero Calza</div>
+                    </td>
+                    <td>Nag Survey?</td>
+                    <tr>
+                      <th></th>
+                      <td></td>
+                      <td class="picture-cell">
+                          <img src="img/Nilapitanko.jpg" width="450" height="400">
+                          <div class="name-overlay">Tristan Austria</div>
+                      </td>
+                      <td>Kasama Sa Gumawa Ng Research</td>
+                      <tr>
+                        <th></th>
+                        <td></td>
+                        <td class="picture-cell">
+                            <img src="img/WallNut.jpg" width="450" height="400">
+                            <div class="name-overlay">Joe Allen Cuchapin</div>
+                        </td>
+                        <td>Kasama Sa Gumawa Ng Research</td>
+                      </tr>
+                    </tr>
+                  </tr>
+                </tr>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <!---------------------- script-src ---------------------->
+      <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+      <script src="./script.js"></script>
+  </body>
+</html>
