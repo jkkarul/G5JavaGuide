@@ -218,7 +218,7 @@ i {
 }
 
 .about-info2 {
-  width: 24.8ch;
+  width: 20ch;
   animation: typing 1.5s steps(35), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
